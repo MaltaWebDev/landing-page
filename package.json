@@ -1,0 +1,24 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./main.css -w",
+    "watch": "npx tailwindcss -i ./input.css -o ./main.css -w --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaltaWebDev/landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaltaWebDev/landing-page/issues"
+  },
+  "homepage": "https://github.com/MaltaWebDev/landing-page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
