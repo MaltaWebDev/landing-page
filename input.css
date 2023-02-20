@@ -4,4 +4,8 @@
 
 body {
   font-family: "Be Vietnam Pro", sans-serif;
+  background-image: url("./images/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position: 90% -25%;
 }
